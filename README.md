@@ -28,7 +28,7 @@ A simple web application to manage daily tasks. This project demonstrates a full
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Varunyadavgithub/
+   git clone https://github.com/Varunyadavgithub/Assignment-Task-manager.git
    ```
 
 2. Navigate to the `backend` directory and install dependencies:
