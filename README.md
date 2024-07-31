@@ -77,7 +77,3 @@ A simple web application to manage daily tasks. This project demonstrates a full
 - **GET /tasks/:id**: Retrieve a single task by ID.
 - **PUT /tasks/:id**: Update a task by ID.
 - **DELETE /tasks/:id**: Delete a task by ID.
-
-## Testing
-
-Use Postman to test the API endpoints. You can find the Postman collection in the `docs` folder (if provided).
