@@ -26,7 +26,7 @@ const AddTask = () => {
   return (
     <>
       <Container>
-        <h1 className="my-4">Add a New Task</h1>
+        <h1 className="my-4">Add a new Task</h1>
         <Form onSubmit={handleSubmit}>
           <Form.Group controlId="formTitle">
             <Form.Label>Title</Form.Label>

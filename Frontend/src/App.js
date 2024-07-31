@@ -8,7 +8,7 @@ const App = () => {
   return (
     <Router>
       <Navbar bg="dark" variant="dark" expand="lg">
-        <Navbar.Brand as={Link} to="/">Task Manager</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/" className='px-4'>Personal Task Manager</Navbar.Brand>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/add">Add Task</Nav.Link>
