@@ -12,15 +12,7 @@ const taskSchema = new mongoose.Schema({
   status: {
     type: String,
     default: "Pending",
-  },
-  createdAt: { 
-    type: Date,
-    default: Date.now
- },
-  updatedAt: { 
-    type: Date,
-    default: Date.now
- }
-});
+  }
+},{timestamps:true});
 
 export const Tasks = mongoose.model("Task", taskSchema);
